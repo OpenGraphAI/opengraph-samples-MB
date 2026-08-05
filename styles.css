@@ -1,0 +1,313 @@
+/* ==========================================================================
+   Tokens
+   ========================================================================== */
+:root {
+  --bg: #0B0E14;
+  --surface: #131722;
+  --surface-border: #232A3A;
+  --text: #E8EAF0;
+  --text-muted: #8B93A7;
+  --accent: #5EEAD4;
+  --accent-dim: #5EEAD433;
+  --accent-2: #F0B849;
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+
+  --max-width: 960px;
+}
+
+/* ==========================================================================
+   Reset / base
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.75rem;
+}
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+.hero {
+  position: relative;
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 2rem 1.5rem;
+}
+
+.hero__graph {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.55;
+}
+
+.hero__edges line {
+  stroke: var(--surface-border);
+  stroke-width: 1.5;
+}
+
+.hero__nodes circle {
+  fill: var(--text-muted);
+}
+
+.hero__nodes circle.is-accent {
+  fill: var(--accent);
+  filter: drop-shadow(0 0 6px var(--accent-dim));
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4.25rem);
+  letter-spacing: -0.02em;
+  margin-bottom: 1.25rem;
+}
+
+.hero__pitch {
+  max-width: 42ch;
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  margin-bottom: 2.25rem;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+.btn {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.85rem 1.6rem;
+  border-radius: 4px;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.btn--primary {
+  background: var(--accent-2);
+  color: #14110A;
+}
+
+.btn--primary:hover {
+  transform: translateY(-1px);
+  background: #f5c363;
+}
+
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+.section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+}
+
+.section h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 2rem;
+  max-width: 32ch;
+}
+
+.section--install {
+  border-top: 1px solid var(--surface-border);
+}
+
+.section__note {
+  color: var(--text-muted);
+  max-width: 48ch;
+}
+
+/* ==========================================================================
+   Example card
+   ========================================================================== */
+.card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  align-items: stretch;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.card__thumb {
+  background: var(--bg);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+}
+
+.card__thumb svg {
+  width: 80%;
+  height: 80%;
+}
+
+.card__thumb line {
+  stroke: var(--surface-border);
+  stroke-width: 1.5;
+}
+
+.card__thumb circle {
+  fill: var(--text-muted);
+}
+
+.card__thumb circle.is-accent {
+  fill: var(--accent);
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__body h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.card__body p {
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.card__link {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--accent);
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.footer {
+  border-top: 1px solid var(--surface-border);
+  padding: 2.5rem 1.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer__links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer__links a {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: var(--text-muted);
+}
+
+.footer__links a:hover {
+  color: var(--accent);
+}
+
+.footer__meta {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   Mobile (~380px)
+   ========================================================================== */
+@media (max-width: 480px) {
+  .hero {
+    min-height: 92vh;
+    padding: 1.5rem 1.25rem;
+  }
+
+  .section {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .card__thumb {
+    min-height: 120px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

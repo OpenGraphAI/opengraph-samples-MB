@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenGraph Samples</title>
+  <meta name="description" content="Interactive graph examples from OpenGraph AI">
+
+  <!-- Open Graph meta tags for social share previews -->
+  <meta property="og:title" content="OpenGraph Samples">
+  <meta property="og:description" content="Interactive graph examples from OpenGraph AI">
+  <meta property="og:image" content="assets/og-preview.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <svg class="hero__graph" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g class="hero__edges">
+        <line x1="180" y1="140" x2="420" y2="260" />
+        <line x1="420" y1="260" x2="360" y2="480" />
+        <line x1="420" y1="260" x2="700" y2="200" />
+        <line x1="700" y1="200" x2="960" y2="320" />
+        <line x1="700" y1="200" x2="820" y2="70" />
+        <line x1="360" y1="480" x2="620" y2="600" />
+        <line x1="620" y1="600" x2="960" y2="320" />
+        <line x1="960" y1="320" x2="1080" y2="540" />
+        <line x1="180" y1="140" x2="120" y2="380" />
+        <line x1="120" y1="380" x2="360" y2="480" />
+      </g>
+      <g class="hero__nodes">
+        <circle cx="180" cy="140" r="6" />
+        <circle cx="420" cy="260" r="8" class="is-accent" />
+        <circle cx="700" cy="200" r="6" />
+        <circle cx="960" cy="320" r="8" class="is-accent" />
+        <circle cx="820" cy="70" r="5" />
+        <circle cx="360" cy="480" r="6" />
+        <circle cx="620" cy="600" r="7" class="is-accent" />
+        <circle cx="1080" cy="540" r="5" />
+        <circle cx="120" cy="380" r="5" />
+      </g>
+    </svg>
+
+    <div class="hero__content">
+      <p class="eyebrow">OpenGraph AI · Samples</p>
+      <h1>OpenGraph Samples</h1>
+      <p class="hero__pitch">A working set of interactive graphs showing how OpenGraph AI turns raw text, tables, and images into queryable knowledge graphs.</p>
+      <a class="btn btn--primary" href="#example">See it in action</a>
+    </div>
+  </header>
+
+  <!-- ============ EXAMPLE CARD ============ -->
+  <main>
+    <section id="example" class="section">
+      <p class="eyebrow">Example</p>
+      <h2>One graph, built from real data</h2>
+
+      <a class="card" href="image/examples/graph.html">
+        <div class="card__thumb" aria-hidden="true">
+          <svg viewBox="0 0 200 140">
+            <line x1="40" y1="30" x2="100" y2="70" />
+            <line x1="100" y1="70" x2="160" y2="40" />
+            <line x1="100" y1="70" x2="70" y2="110" />
+            <line x1="70" y1="110" x2="150" y2="115" />
+            <circle cx="40" cy="30" r="5" />
+            <circle cx="100" cy="70" r="6" class="is-accent" />
+            <circle cx="160" cy="40" r="5" />
+            <circle cx="70" cy="110" r="5" />
+            <circle cx="150" cy="115" r="5" />
+          </svg>
+        </div>
+        <div class="card__body">
+          <h3>Interactive entity graph</h3>
+          <p>Explore nodes and relationships extracted directly from a sample dataset — pan, zoom, and inspect evidence for each connection.</p>
+          <span class="card__link">Open example →</span>
+        </div>
+      </a>
+    </section>
+
+    <!-- ============ INSTALL MCP ============ -->
+    <section id="install" class="section section--install">
+      <p class="eyebrow">Install</p>
+      <h2>Install via MCP</h2>
+      <p class="section__note">Setup instructions for connecting OpenGraph AI's MCP server land here in Phase 5.</p>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__links">
+      <a href="https://github.com/OpenGraphAI/opengraph-ai">opengraph-ai →</a>
+      <a href="https://github.com/OpenGraphAI/opengraph-samples-MB">This repo on GitHub →</a>
+    </div>
+    <p class="footer__meta">OpenGraph AI</p>
+  </footer>
+
+</body>
+</html>
