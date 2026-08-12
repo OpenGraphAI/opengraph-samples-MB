@@ -1,0 +1,257 @@
+{
+  "title": "Scene Objects Example",
+  "nodes": [
+    {
+      "id": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "label": "niko photos tgtvxeor rs unsplash",
+      "description": "Source image (1920x1280 JPEG)"
+    },
+    {
+      "id": "entity_ceiba_tree",
+      "label": "ceiba_tree",
+      "description": "Detected object, confidence 0.82"
+    },
+    {
+      "id": "entity_tropical_tree",
+      "label": "tropical_tree",
+      "description": "Detected object, confidence 0.7"
+    },
+    {
+      "id": "entity_grass_field",
+      "label": "grass_field",
+      "description": "Detected object, confidence 0.95"
+    },
+    {
+      "id": "entity_sky",
+      "label": "sky",
+      "description": "Detected object, confidence 0.98"
+    },
+    {
+      "id": "entity_cumulus_cloud",
+      "label": "cumulus_cloud",
+      "description": "Detected object, confidence 0.88"
+    },
+    {
+      "id": "entity_tree_trunk",
+      "label": "tree_trunk",
+      "description": "Detected object, confidence 0.97"
+    },
+    {
+      "id": "entity_tree_canopy",
+      "label": "tree_canopy",
+      "description": "Detected object, confidence 0.95"
+    },
+    {
+      "id": "entity_bird_nest",
+      "label": "bird_nest",
+      "description": "Detected object, confidence 0.62"
+    },
+    {
+      "id": "concept_outdoor",
+      "label": "outdoor",
+      "description": "Scene classification, confidence 0.97"
+    },
+    {
+      "id": "attr_lighting_warm_golden_hour",
+      "label": "warm golden hour",
+      "description": "lighting: warm golden hour"
+    },
+    {
+      "id": "attr_mood_serene_and_majestic",
+      "label": "serene and majestic",
+      "description": "mood: serene and majestic"
+    },
+    {
+      "id": "attr_style_nature_photography",
+      "label": "nature photography",
+      "description": "style: nature photography"
+    },
+    {
+      "id": "attr_color_blue_with_wispy_white_clouds",
+      "label": "blue with wispy white clouds",
+      "description": "color: blue with wispy white clouds"
+    },
+    {
+      "id": "attr_color_lush_green",
+      "label": "lush green",
+      "description": "color: lush green"
+    },
+    {
+      "id": "attr_color_brown",
+      "label": "brown",
+      "description": "color: brown"
+    },
+    {
+      "id": "attr_material_bark",
+      "label": "bark",
+      "description": "material: bark"
+    },
+    {
+      "id": "attr_size_large_and_thick",
+      "label": "large and thick",
+      "description": "size: large and thick"
+    },
+    {
+      "id": "attr_color_bright_green",
+      "label": "bright green",
+      "description": "color: bright green"
+    },
+    {
+      "id": "attr_size_large",
+      "label": "large",
+      "description": "size: large"
+    },
+    {
+      "id": "attr_size_medium",
+      "label": "medium",
+      "description": "size: medium"
+    },
+    {
+      "id": "attr_style_broad_spreading_umbrella_shape",
+      "label": "broad spreading umbrella shape",
+      "description": "style: broad spreading umbrella shape"
+    }
+  ],
+  "edges": [
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "entity_ceiba_tree",
+      "label": "contains"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "entity_ceiba_tree",
+      "label": "contains"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "entity_tropical_tree",
+      "label": "contains"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "entity_grass_field",
+      "label": "contains"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "entity_sky",
+      "label": "contains"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "entity_cumulus_cloud",
+      "label": "contains"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "entity_tree_trunk",
+      "label": "contains"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "entity_tree_canopy",
+      "label": "contains"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "entity_bird_nest",
+      "label": "contains"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "concept_outdoor",
+      "label": "in_scene"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "attr_lighting_warm_golden_hour",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "attr_mood_serene_and_majestic",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_niko_photos_tgtvxeor_rs_unsplash",
+      "target": "attr_style_nature_photography",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_ceiba_tree",
+      "target": "attr_size_large",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_ceiba_tree",
+      "target": "entity_grass_field",
+      "label": "on_top_of"
+    },
+    {
+      "source": "entity_ceiba_tree",
+      "target": "entity_sky",
+      "label": "in_front_of"
+    },
+    {
+      "source": "entity_ceiba_tree",
+      "target": "attr_size_medium",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_tropical_tree",
+      "target": "entity_ceiba_tree",
+      "label": "next_to"
+    },
+    {
+      "source": "entity_grass_field",
+      "target": "attr_color_bright_green",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_sky",
+      "target": "attr_color_blue_with_wispy_white_clouds",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_cumulus_cloud",
+      "target": "entity_sky",
+      "label": "in_front_of"
+    },
+    {
+      "source": "entity_tree_trunk",
+      "target": "attr_color_brown",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_tree_trunk",
+      "target": "attr_material_bark",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_tree_trunk",
+      "target": "attr_size_large_and_thick",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_tree_canopy",
+      "target": "attr_color_lush_green",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_tree_canopy",
+      "target": "attr_style_broad_spreading_umbrella_shape",
+      "label": "has_attribute"
+    },
+    {
+      "source": "entity_tree_canopy",
+      "target": "entity_tree_trunk",
+      "label": "on_top_of"
+    },
+    {
+      "source": "entity_bird_nest",
+      "target": "entity_tree_trunk",
+      "label": "next_to"
+    }
+  ]
+}

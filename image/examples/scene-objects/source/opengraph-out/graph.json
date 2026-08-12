@@ -1,0 +1,465 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "image",
+      "path": "../opengraph-samples-MB/image/examples/scene-objects/source/niko-photos-tGTVxeOr_Rs-unsplash.jpg",
+      "width": 1920,
+      "height": 1280,
+      "format": "JPEG",
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash"
+    },
+    {
+      "type": "object",
+      "label": "ceiba_tree",
+      "confidence": 0.82,
+      "bounding_box": [
+        0.1,
+        0.0,
+        0.75,
+        1.0
+      ],
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1"
+    },
+    {
+      "type": "object",
+      "label": "tropical_tree",
+      "confidence": 0.7,
+      "bounding_box": [
+        0.82,
+        0.72,
+        0.1,
+        0.28
+      ],
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__small_tree_1"
+    },
+    {
+      "type": "object",
+      "label": "grass_field",
+      "confidence": 0.95,
+      "bounding_box": [
+        0.0,
+        0.82,
+        1.0,
+        0.18
+      ],
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__grass_field"
+    },
+    {
+      "type": "object",
+      "label": "sky",
+      "confidence": 0.98,
+      "bounding_box": [
+        0.0,
+        0.0,
+        1.0,
+        0.75
+      ],
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__sky"
+    },
+    {
+      "type": "object",
+      "label": "cumulus_cloud",
+      "confidence": 0.88,
+      "bounding_box": [
+        0.55,
+        0.0,
+        0.45,
+        0.55
+      ],
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__cloud_1"
+    },
+    {
+      "type": "object",
+      "label": "tree_trunk",
+      "confidence": 0.97,
+      "bounding_box": [
+        0.42,
+        0.55,
+        0.12,
+        0.45
+      ],
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1"
+    },
+    {
+      "type": "object",
+      "label": "tree_canopy",
+      "confidence": 0.95,
+      "bounding_box": [
+        0.05,
+        0.0,
+        0.9,
+        0.65
+      ],
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__tree_canopy_1"
+    },
+    {
+      "type": "object",
+      "label": "bird_nest",
+      "confidence": 0.62,
+      "bounding_box": [
+        0.54,
+        0.58,
+        0.03,
+        0.06
+      ],
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__bird_nest_1"
+    },
+    {
+      "type": "scene",
+      "label": "outdoor",
+      "confidence": 0.97,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__scene_outdoor_savanna"
+    },
+    {
+      "type": "attribute",
+      "key": "lighting",
+      "value": "warm golden hour",
+      "confidence": 0.93,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_img_lighting"
+    },
+    {
+      "type": "attribute",
+      "key": "mood",
+      "value": "serene and majestic",
+      "confidence": 0.92,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_img_mood"
+    },
+    {
+      "type": "attribute",
+      "key": "style",
+      "value": "nature photography",
+      "confidence": 0.95,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_img_style"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "blue with wispy white clouds",
+      "confidence": 0.96,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_sky_color"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "lush green",
+      "confidence": 0.95,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_canopy_color"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "brown",
+      "confidence": 0.95,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_trunk_color"
+    },
+    {
+      "type": "attribute",
+      "key": "material",
+      "value": "bark",
+      "confidence": 0.93,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_trunk_material"
+    },
+    {
+      "type": "attribute",
+      "key": "size",
+      "value": "large and thick",
+      "confidence": 0.9,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_trunk_size"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "bright green",
+      "confidence": 0.92,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_grass_color"
+    },
+    {
+      "type": "attribute",
+      "key": "size",
+      "value": "large",
+      "confidence": 0.93,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_tree1_size"
+    },
+    {
+      "type": "attribute",
+      "key": "size",
+      "value": "medium",
+      "confidence": 0.8,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_tree2_size"
+    },
+    {
+      "type": "attribute",
+      "key": "style",
+      "value": "broad spreading umbrella shape",
+      "confidence": 0.91,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_canopy_style"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "contains",
+      "confidence": 0.95,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.82,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
+      "key": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.78,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__small_tree_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.97,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__grass_field",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.98,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__sky",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.88,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__cloud_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.97,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.95,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__tree_canopy_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.62,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__bird_nest_1",
+      "key": 0
+    },
+    {
+      "relation": "in_scene",
+      "confidence": 0.97,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__scene_outdoor_savanna",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.93,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_img_lighting",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_img_mood",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.95,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_img_style",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.93,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_tree1_size",
+      "key": 0
+    },
+    {
+      "relation": "on_top_of",
+      "confidence": 0.93,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__grass_field",
+      "key": 0
+    },
+    {
+      "relation": "in_front_of",
+      "confidence": 0.92,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__sky",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.8,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_tree2_size",
+      "key": 0
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.78,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__small_tree_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__grass_field",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_grass_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.96,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__sky",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_sky_color",
+      "key": 0
+    },
+    {
+      "relation": "in_front_of",
+      "confidence": 0.87,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__cloud_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__sky",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.95,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_trunk_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.93,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_trunk_material",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.9,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_trunk_size",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.95,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__tree_canopy_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_canopy_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.91,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__tree_canopy_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_canopy_style",
+      "key": 0
+    },
+    {
+      "relation": "on_top_of",
+      "confidence": 0.97,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__tree_canopy_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1",
+      "key": 0
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.65,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__bird_nest_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1",
+      "key": 0
+    }
+  ]
+}
