@@ -76,8 +76,8 @@
           </svg>
         </div>
         <div class="card__body">
-          <h3>Interactive entity graph</h3>
-          <p>Explore nodes and relationships extracted directly from a sample dataset — pan, zoom, and inspect evidence for each connection.</p>
+          <h3>Scene Objects</h3>
+          <p>An outdoor photo decomposed into objects, scene context, attributes, and text — explore how OpenGraph AI connects them into a graph.</p>
           <span class="card__link">Open example →</span>
         </div>
       </a>
@@ -87,7 +87,45 @@
     <section id="install" class="section section--install">
       <p class="eyebrow">Install</p>
       <h2>Install via MCP</h2>
-      <p class="section__note">Setup instructions for connecting OpenGraph AI's MCP server land here in Phase 5.</p>
+      <p class="section__note">Add the OpenGraph AI image MCP server to your client of choice. Requires <code>pip install opengraph-image</code> and an <code>ANTHROPIC_API_KEY</code> in your environment.</p>
+
+      <div class="mcp-grid">
+        <div class="mcp-card">
+          <div class="mcp-card__header">
+            <h3>Claude Desktop</h3>
+            <button class="copy-btn" data-copy-target="mcp-claude-desktop">Copy</button>
+          </div>
+          <p class="mcp-card__path"><code>~/Library/Application Support/Claude/claude_desktop_config.json</code></p>
+          <pre id="mcp-claude-desktop"><code>{
+  "mcpServers": {
+    "opengraph-image": {
+      "command": "opengraph-image-mcp",
+      "env": {
+        "ANTHROPIC_API_KEY": "your-api-key-here"
+      }
+    }
+  }
+}</code></pre>
+        </div>
+
+        <div class="mcp-card">
+          <div class="mcp-card__header">
+            <h3>Cursor</h3>
+            <button class="copy-btn" data-copy-target="mcp-cursor">Copy</button>
+          </div>
+          <p class="mcp-card__path"><code>~/.cursor/mcp.json</code></p>
+          <pre id="mcp-cursor"><code>{
+  "mcpServers": {
+    "opengraph-image": {
+      "command": "opengraph-image-mcp",
+      "env": {
+        "ANTHROPIC_API_KEY": "your-api-key-here"
+      }
+    }
+  }
+}</code></pre>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -99,6 +137,29 @@
     </div>
     <p class="footer__meta">OpenGraph AI</p>
   </footer>
+
+  <script>
+    document.querySelectorAll('.copy-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.getAttribute('data-copy-target');
+        const codeEl = document.getElementById(targetId);
+        const text = codeEl.innerText;
+
+        navigator.clipboard.writeText(text).then(() => {
+          const original = btn.textContent;
+          btn.textContent = 'Copied!';
+          btn.classList.add('is-copied');
+          setTimeout(() => {
+            btn.textContent = original;
+            btn.classList.remove('is-copied');
+          }, 1500);
+        }).catch(() => {
+          btn.textContent = 'Failed';
+          setTimeout(() => { btn.textContent = 'Copy'; }, 1500);
+        });
+      });
+    });
+  </script>
 
 </body>
 </html>
