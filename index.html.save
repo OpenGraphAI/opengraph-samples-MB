@@ -61,7 +61,7 @@
       <p class="eyebrow">Example</p>
       <h2>One graph, built from real data</h2>
 
-      <a class="card" href="image/examples/scene-objects/graph.html">
+      <a <a class="card" href="image/examples/scene-objects/graph.html"class="card" href="image/examples/graph.html">
         <div class="card__thumb" aria-hidden="true">
           <svg viewBox="0 0 200 140">
             <line x1="40" y1="30" x2="100" y2="70" />
