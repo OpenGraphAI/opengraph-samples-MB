@@ -83,6 +83,39 @@ code {
 }
 
 /* ==========================================================================
+   Nav
+   ========================================================================== */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(to bottom, var(--bg) 40%, transparent);
+}
+
+.nav__logo {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
+
+.nav__github {
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.nav__github:hover {
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+/* ==========================================================================
    Hero
    ========================================================================== */
 .hero {
@@ -172,11 +205,13 @@ code {
 
 .section h2 {
   font-size: clamp(1.5rem, 3vw, 2rem);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   max-width: 32ch;
 }
 
-.section--install {
+.section--install,
+.section--references,
+.section--about {
   border-top: 1px solid var(--surface-border);
 }
 
@@ -187,13 +222,17 @@ code {
 }
 
 /* ==========================================================================
-   Example card
+   Dashboard / example cards
    ========================================================================== */
-.card {
+.example-grid {
   display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 2rem;
-  align-items: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
   background: var(--surface);
   border: 1px solid var(--surface-border);
   border-radius: 8px;
@@ -215,6 +254,7 @@ code {
   align-items: center;
   justify-content: center;
   min-height: 140px;
+  margin-bottom: 1.25rem;
 }
 
 .card__thumb svg {
@@ -235,26 +275,36 @@ code {
   fill: var(--accent);
 }
 
-.card__body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.card__badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border-radius: 3px;
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 0.6rem;
+  width: fit-content;
 }
 
 .card__body h3 {
-  font-size: 1.25rem;
-  margin-bottom: 0.6rem;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
 }
 
 .card__body p {
   color: var(--text-muted);
   margin-bottom: 1.25rem;
+  font-size: 0.9rem;
 }
 
 .card__link {
   font-family: var(--font-mono);
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   color: var(--accent);
+  margin-top: auto;
 }
 
 /* ==========================================================================
@@ -325,6 +375,7 @@ code {
   padding: 0.35rem 0.7rem;
   cursor: pointer;
   transition: border-color 0.15s ease, color 0.15s ease;
+  flex-shrink: 0;
 }
 
 .copy-btn:hover {
@@ -335,6 +386,56 @@ code {
 .copy-btn.is-copied {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+/* ==========================================================================
+   References
+   ========================================================================== */
+.ref-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.ref-card {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+a.ref-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.ref-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.6rem;
+}
+
+.ref-card p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.ref-card--code pre {
+  background: var(--bg);
+  border: 1px solid var(--surface-border);
+  border-radius: 6px;
+  padding: 0.85rem 1rem;
+  overflow-x: auto;
+}
+
+.ref-card--code pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.85rem;
 }
 
 /* ==========================================================================
@@ -388,15 +489,12 @@ code {
     padding: 3.5rem 1.25rem;
   }
 
-  .card {
+  .example-grid {
     grid-template-columns: 1fr;
   }
 
-  .card__thumb {
-    min-height: 120px;
-  }
-
-  .mcp-grid {
+  .mcp-grid,
+  .ref-grid {
     grid-template-columns: 1fr;
   }
 

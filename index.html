@@ -19,6 +19,23 @@
 </head>
 <body>
 
+  <!-- ============ NAV ============ -->
+  <nav class="nav">
+    <span class="nav__logo">OpenGraph Samples</span>
+    <a class="nav__github" href="https://github.com/OpenGraphAI/opengraph-samples-MB" aria-label="View on GitHub" target="_blank" rel="noopener">
+      <svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" aria-hidden="true">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+        -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66
+        .07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
+        -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27
+        .68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+        .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+        0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+    </a>
+  </nav>
+
   <!-- ============ HERO ============ -->
   <header class="hero">
     <svg class="hero__graph" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
@@ -51,36 +68,42 @@
       <p class="eyebrow">OpenGraph AI · Samples</p>
       <h1>OpenGraph Samples</h1>
       <p class="hero__pitch">A working set of interactive graphs showing how OpenGraph AI turns raw text, tables, and images into queryable knowledge graphs.</p>
-      <a class="btn btn--primary" href="#example">See it in action</a>
+      <a class="btn btn--primary" href="#dashboard">See it in action</a>
     </div>
   </header>
 
-  <!-- ============ EXAMPLE CARD ============ -->
   <main>
-    <section id="example" class="section">
-      <p class="eyebrow">Example</p>
-      <h2>One graph, built from real data</h2>
+    <!-- ============ MAIN DASHBOARD ============ -->
+    <section id="dashboard" class="section">
+      <p class="eyebrow">Dashboard</p>
+      <h2>Explore the examples</h2>
+      <p class="section__note">Each card below is a real graph, extracted from real source data using OpenGraph AI's tooling. Click through to pan, zoom, and inspect any node or edge.</p>
 
-      <a class="card" href="image/examples/scene-objects/graph.html">
-        <div class="card__thumb" aria-hidden="true">
-          <svg viewBox="0 0 200 140">
-            <line x1="40" y1="30" x2="100" y2="70" />
-            <line x1="100" y1="70" x2="160" y2="40" />
-            <line x1="100" y1="70" x2="70" y2="110" />
-            <line x1="70" y1="110" x2="150" y2="115" />
-            <circle cx="40" cy="30" r="5" />
-            <circle cx="100" cy="70" r="6" class="is-accent" />
-            <circle cx="160" cy="40" r="5" />
-            <circle cx="70" cy="110" r="5" />
-            <circle cx="150" cy="115" r="5" />
-          </svg>
-        </div>
-        <div class="card__body">
-          <h3>Scene Objects</h3>
-          <p>An outdoor photo decomposed into objects, scene context, attributes, and text — explore how OpenGraph AI connects them into a graph.</p>
-          <span class="card__link">Open example →</span>
-        </div>
-      </a>
+      <div class="example-grid">
+        <a class="card" href="image/examples/scene-objects/graph.html">
+          <div class="card__thumb" aria-hidden="true">
+            <svg viewBox="0 0 200 140">
+              <line x1="40" y1="30" x2="100" y2="70" />
+              <line x1="100" y1="70" x2="160" y2="40" />
+              <line x1="100" y1="70" x2="70" y2="110" />
+              <line x1="70" y1="110" x2="150" y2="115" />
+              <circle cx="40" cy="30" r="5" />
+              <circle cx="100" cy="70" r="6" class="is-accent" />
+              <circle cx="160" cy="40" r="5" />
+              <circle cx="70" cy="110" r="5" />
+              <circle cx="150" cy="115" r="5" />
+            </svg>
+          </div>
+          <div class="card__body">
+            <span class="card__badge">Image</span>
+            <h3>Scene Objects</h3>
+            <p>An outdoor photo decomposed into objects, scene context, attributes, and text.</p>
+            <span class="card__link">Open example →</span>
+          </div>
+        </a>
+
+        <!-- Add more example cards here as new modalities/examples are built -->
+      </div>
     </section>
 
     <!-- ============ INSTALL MCP ============ -->
@@ -126,6 +149,37 @@
 }</code></pre>
         </div>
       </div>
+    </section>
+
+    <!-- ============ REFERENCES ============ -->
+    <section id="references" class="section section--references">
+      <p class="eyebrow">References</p>
+      <h2>Built on OpenGraph AI</h2>
+      <p class="section__note">This repo is a set of samples. The core extraction engine, MCP servers, and CLI tools live in the main project.</p>
+
+      <div class="ref-grid">
+        <a class="ref-card" href="https://github.com/OpenGraphAI/opengraph-ai" target="_blank" rel="noopener">
+          <h3>opengraph-ai →</h3>
+          <p>Core engine, CLI, and MCP servers for image, text, and table extraction.</p>
+        </a>
+
+        <div class="ref-card ref-card--code">
+          <h3>Get started</h3>
+          <div class="mcp-card__header">
+            <span class="mcp-card__path" style="margin:0;"><code>pip install opengraph-image</code></span>
+            <button class="copy-btn" data-copy-target="ref-pip-install">Copy</button>
+          </div>
+          <pre id="ref-pip-install" style="margin-top: 0.75rem;"><code>pip install opengraph-image</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT / BIO ============ -->
+    <section id="about" class="section section--about">
+      <p class="eyebrow">About</p>
+      <h2>About this project</h2>
+      <!-- Customize this with your own intro/bio -->
+      <p class="section__note">opengraph-samples-MB is a hands-on companion to OpenGraph AI — real graphs, built from real data, so you can see exactly what the extraction pipeline produces before wiring it into your own project.</p>
     </section>
   </main>
 
