@@ -17,11 +17,11 @@
     {
       "type": "object",
       "label": "ceiba_tree",
-      "confidence": 0.82,
+      "confidence": 0.85,
       "bounding_box": [
         0.15,
         0.0,
-        0.7,
+        0.65,
         1.0
       ],
       "seen_in": [
@@ -34,10 +34,10 @@
       "label": "deciduous_tree",
       "confidence": 0.72,
       "bounding_box": [
-        0.82,
-        0.7,
+        0.84,
+        0.72,
         0.12,
-        0.3
+        0.28
       ],
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
@@ -50,14 +50,14 @@
       "confidence": 0.97,
       "bounding_box": [
         0.0,
-        0.78,
+        0.82,
         1.0,
-        0.22
+        0.18
       ],
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
       ],
-      "id": "niko_photos_tgtvxeor_rs_unsplash__grass_field_1"
+      "id": "niko_photos_tgtvxeor_rs_unsplash__grass_field"
     },
     {
       "type": "object",
@@ -67,34 +67,34 @@
         0.0,
         0.0,
         1.0,
-        0.78
+        0.65
       ],
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
       ],
-      "id": "niko_photos_tgtvxeor_rs_unsplash__sky_1"
+      "id": "niko_photos_tgtvxeor_rs_unsplash__sky"
     },
     {
       "type": "object",
-      "label": "cloud",
-      "confidence": 0.92,
+      "label": "cumulus_cloud",
+      "confidence": 0.88,
       "bounding_box": [
-        0.4,
         0.0,
-        0.6,
-        0.55
+        0.0,
+        1.0,
+        0.6
       ],
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
       ],
-      "id": "niko_photos_tgtvxeor_rs_unsplash__cloud_1"
+      "id": "niko_photos_tgtvxeor_rs_unsplash__cumulus_cloud"
     },
     {
       "type": "object",
       "label": "tree_trunk",
-      "confidence": 0.98,
+      "confidence": 0.97,
       "bounding_box": [
-        0.44,
+        0.42,
         0.55,
         0.12,
         0.45
@@ -103,6 +103,21 @@
         "niko_photos_tgtvxeor_rs_unsplash"
       ],
       "id": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1"
+    },
+    {
+      "type": "object",
+      "label": "bird_nest",
+      "confidence": 0.65,
+      "bounding_box": [
+        0.54,
+        0.66,
+        0.02,
+        0.04
+      ],
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__bird_nest"
     },
     {
       "type": "scene",
@@ -116,8 +131,8 @@
     {
       "type": "attribute",
       "key": "lighting",
-      "value": "warm golden hour sunlight",
-      "confidence": 0.93,
+      "value": "golden hour warm sunlight",
+      "confidence": 0.92,
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
       ],
@@ -127,7 +142,7 @@
       "type": "attribute",
       "key": "mood",
       "value": "serene and majestic",
-      "confidence": 0.92,
+      "confidence": 0.93,
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
       ],
@@ -136,7 +151,7 @@
     {
       "type": "attribute",
       "key": "style",
-      "value": "nature landscape photography",
+      "value": "nature photography",
       "confidence": 0.95,
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
@@ -146,7 +161,7 @@
     {
       "type": "attribute",
       "key": "color",
-      "value": "lush green canopy with brown trunk",
+      "value": "green and brown",
       "confidence": 0.97,
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
@@ -165,18 +180,8 @@
     },
     {
       "type": "attribute",
-      "key": "material",
-      "value": "wood and foliage",
-      "confidence": 0.95,
-      "seen_in": [
-        "niko_photos_tgtvxeor_rs_unsplash"
-      ],
-      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_tree1_material"
-    },
-    {
-      "type": "attribute",
       "key": "color",
-      "value": "reddish brown",
+      "value": "reddish-brown",
       "confidence": 0.95,
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
@@ -185,9 +190,29 @@
     },
     {
       "type": "attribute",
-      "key": "color",
-      "value": "blue with wispy white clouds",
+      "key": "material",
+      "value": "bark",
       "confidence": 0.97,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_trunk_material"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "green",
+      "confidence": 0.97,
+      "seen_in": [
+        "niko_photos_tgtvxeor_rs_unsplash"
+      ],
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_grass_color"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "blue",
+      "confidence": 0.98,
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
       ],
@@ -196,52 +221,42 @@
     {
       "type": "attribute",
       "key": "color",
-      "value": "vibrant green",
-      "confidence": 0.96,
+      "value": "white and light grey",
+      "confidence": 0.92,
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
       ],
-      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_grass_color"
+      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_cloud_color"
     },
     {
       "type": "attribute",
       "key": "size",
       "value": "medium",
-      "confidence": 0.8,
+      "confidence": 0.82,
       "seen_in": [
         "niko_photos_tgtvxeor_rs_unsplash"
       ],
       "id": "niko_photos_tgtvxeor_rs_unsplash__attr_tree2_size"
-    },
-    {
-      "type": "attribute",
-      "key": "style",
-      "value": "wide spreading umbrella canopy",
-      "confidence": 0.9,
-      "seen_in": [
-        "niko_photos_tgtvxeor_rs_unsplash"
-      ],
-      "id": "niko_photos_tgtvxeor_rs_unsplash__attr_tree1_style"
     }
   ],
   "edges": [
     {
       "relation": "contains",
-      "confidence": 0.98,
+      "confidence": 0.95,
       "source": "niko_photos_tgtvxeor_rs_unsplash",
       "target": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
       "key": 0
     },
     {
       "relation": "contains",
-      "confidence": 0.8,
+      "confidence": 0.85,
       "source": "niko_photos_tgtvxeor_rs_unsplash",
       "target": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
       "key": 1
     },
     {
       "relation": "contains",
-      "confidence": 0.72,
+      "confidence": 0.8,
       "source": "niko_photos_tgtvxeor_rs_unsplash",
       "target": "niko_photos_tgtvxeor_rs_unsplash__deciduous_tree_1",
       "key": 0
@@ -250,28 +265,35 @@
       "relation": "contains",
       "confidence": 0.97,
       "source": "niko_photos_tgtvxeor_rs_unsplash",
-      "target": "niko_photos_tgtvxeor_rs_unsplash__grass_field_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__grass_field",
       "key": 0
     },
     {
       "relation": "contains",
       "confidence": 0.99,
       "source": "niko_photos_tgtvxeor_rs_unsplash",
-      "target": "niko_photos_tgtvxeor_rs_unsplash__sky_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__sky",
       "key": 0
     },
     {
       "relation": "contains",
-      "confidence": 0.92,
+      "confidence": 0.9,
       "source": "niko_photos_tgtvxeor_rs_unsplash",
-      "target": "niko_photos_tgtvxeor_rs_unsplash__cloud_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__cumulus_cloud",
       "key": 0
     },
     {
       "relation": "contains",
-      "confidence": 0.98,
+      "confidence": 0.97,
       "source": "niko_photos_tgtvxeor_rs_unsplash",
       "target": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.65,
+      "source": "niko_photos_tgtvxeor_rs_unsplash",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__bird_nest",
       "key": 0
     },
     {
@@ -283,14 +305,14 @@
     },
     {
       "relation": "has_attribute",
-      "confidence": 0.93,
+      "confidence": 0.92,
       "source": "niko_photos_tgtvxeor_rs_unsplash",
       "target": "niko_photos_tgtvxeor_rs_unsplash__attr_img_lighting",
       "key": 0
     },
     {
       "relation": "has_attribute",
-      "confidence": 0.92,
+      "confidence": 0.93,
       "source": "niko_photos_tgtvxeor_rs_unsplash",
       "target": "niko_photos_tgtvxeor_rs_unsplash__attr_img_mood",
       "key": 0
@@ -311,65 +333,72 @@
     },
     {
       "relation": "has_attribute",
+      "confidence": 0.88,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_tree1_color",
+      "key": 1
+    },
+    {
+      "relation": "has_attribute",
       "confidence": 0.98,
       "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
       "target": "niko_photos_tgtvxeor_rs_unsplash__attr_tree1_size",
       "key": 0
     },
     {
-      "relation": "has_attribute",
-      "confidence": 0.95,
+      "relation": "on_top_of",
+      "confidence": 0.96,
       "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
-      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_tree1_material",
-      "key": 0
-    },
-    {
-      "relation": "has_attribute",
-      "confidence": 0.9,
-      "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
-      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_tree1_style",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1",
       "key": 0
     },
     {
       "relation": "on_top_of",
       "confidence": 0.9,
       "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
-      "target": "niko_photos_tgtvxeor_rs_unsplash__grass_field_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__grass_field",
       "key": 0
     },
     {
       "relation": "has_attribute",
-      "confidence": 0.8,
+      "confidence": 0.82,
       "source": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
       "target": "niko_photos_tgtvxeor_rs_unsplash__attr_tree2_size",
       "key": 0
     },
     {
       "relation": "next_to",
-      "confidence": 0.75,
+      "confidence": 0.78,
       "source": "niko_photos_tgtvxeor_rs_unsplash__deciduous_tree_1",
       "target": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
       "key": 0
     },
     {
       "relation": "has_attribute",
-      "confidence": 0.96,
-      "source": "niko_photos_tgtvxeor_rs_unsplash__grass_field_1",
+      "confidence": 0.97,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__grass_field",
       "target": "niko_photos_tgtvxeor_rs_unsplash__attr_grass_color",
       "key": 0
     },
     {
       "relation": "has_attribute",
-      "confidence": 0.97,
-      "source": "niko_photos_tgtvxeor_rs_unsplash__sky_1",
+      "confidence": 0.98,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__sky",
       "target": "niko_photos_tgtvxeor_rs_unsplash__attr_sky_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__cumulus_cloud",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_cloud_color",
       "key": 0
     },
     {
       "relation": "in_front_of",
       "confidence": 0.88,
-      "source": "niko_photos_tgtvxeor_rs_unsplash__cloud_1",
-      "target": "niko_photos_tgtvxeor_rs_unsplash__sky_1",
+      "source": "niko_photos_tgtvxeor_rs_unsplash__cumulus_cloud",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__sky",
       "key": 0
     },
     {
@@ -380,9 +409,16 @@
       "key": 0
     },
     {
-      "relation": "behind",
-      "confidence": 0.88,
+      "relation": "has_attribute",
+      "confidence": 0.97,
       "source": "niko_photos_tgtvxeor_rs_unsplash__tree_trunk_1",
+      "target": "niko_photos_tgtvxeor_rs_unsplash__attr_trunk_material",
+      "key": 0
+    },
+    {
+      "relation": "inside",
+      "confidence": 0.65,
+      "source": "niko_photos_tgtvxeor_rs_unsplash__bird_nest",
       "target": "niko_photos_tgtvxeor_rs_unsplash__ceiba_tree_1",
       "key": 0
     }
