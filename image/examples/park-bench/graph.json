@@ -1,0 +1,479 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "image",
+      "path": "source/ben-kupke-uaPc8sBVdlA-unsplash.jpg",
+      "width": 8052,
+      "height": 5368,
+      "format": "JPEG",
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash"
+    },
+    {
+      "type": "object",
+      "label": "park_bench",
+      "confidence": 0.93,
+      "bounding_box": [
+        0.38,
+        0.42,
+        0.22,
+        0.09
+      ],
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__park_bench_1"
+    },
+    {
+      "type": "object",
+      "label": "red_horse_chestnut_tree",
+      "confidence": 0.82,
+      "bounding_box": [
+        0.2,
+        0.0,
+        0.45,
+        0.55
+      ],
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__red_horse_chestnut_tree_1"
+    },
+    {
+      "type": "object",
+      "label": "maple_tree",
+      "confidence": 0.75,
+      "bounding_box": [
+        0.0,
+        0.0,
+        0.35,
+        0.75
+      ],
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__maple_tree_1"
+    },
+    {
+      "type": "object",
+      "label": "red_flower_cluster",
+      "confidence": 0.85,
+      "bounding_box": [
+        0.2,
+        0.2,
+        0.15,
+        0.15
+      ],
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__red_flower_cluster_1"
+    },
+    {
+      "type": "object",
+      "label": "grass_meadow",
+      "confidence": 0.97,
+      "bounding_box": [
+        0.0,
+        0.45,
+        1.0,
+        0.55
+      ],
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__grass_meadow_1"
+    },
+    {
+      "type": "object",
+      "label": "wooden_post",
+      "confidence": 0.75,
+      "bounding_box": [
+        0.71,
+        0.33,
+        0.02,
+        0.18
+      ],
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__wooden_post_1"
+    },
+    {
+      "type": "object",
+      "label": "dense_shrub",
+      "confidence": 0.88,
+      "bounding_box": [
+        0.72,
+        0.35,
+        0.28,
+        0.45
+      ],
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__dense_shrub_1"
+    },
+    {
+      "type": "scene",
+      "label": "outdoor",
+      "confidence": 0.98,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__scene_outdoor"
+    },
+    {
+      "type": "attribute",
+      "key": "mood",
+      "value": "serene and mysterious",
+      "confidence": 0.92,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_img_mood"
+    },
+    {
+      "type": "attribute",
+      "key": "lighting",
+      "value": "diffused natural light with dark shadowy canopy",
+      "confidence": 0.9,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_img_lighting"
+    },
+    {
+      "type": "attribute",
+      "key": "style",
+      "value": "moody nature photography",
+      "confidence": 0.88,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_img_style"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "deep green with red accents",
+      "confidence": 0.93,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_img_color"
+    },
+    {
+      "type": "attribute",
+      "key": "material",
+      "value": "wood",
+      "confidence": 0.91,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_bench_material"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "brown",
+      "confidence": 0.88,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_bench_color"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "bright green",
+      "confidence": 0.96,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_grass_color"
+    },
+    {
+      "type": "attribute",
+      "key": "size",
+      "value": "large open meadow",
+      "confidence": 0.9,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_grass_size"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "dark green",
+      "confidence": 0.92,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_tree_color"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "red",
+      "confidence": 0.87,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_flower_color"
+    },
+    {
+      "type": "attribute",
+      "key": "size",
+      "value": "wide landscape",
+      "confidence": 0.85,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__attr_img_size"
+    },
+    {
+      "type": "text_span",
+      "text": "MDA",
+      "confidence": 0.62,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__text_bench_graffiti_1"
+    },
+    {
+      "type": "text_span",
+      "text": "MDA",
+      "confidence": 0.58,
+      "seen_in": [
+        "ben_kupke_uapc8sbvdla_unsplash"
+      ],
+      "id": "ben_kupke_uapc8sbvdla_unsplash__text_bench_graffiti_2"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "contains",
+      "confidence": 0.93,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__park_bench_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.82,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__red_horse_chestnut_tree_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.78,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__red_horse_chestnut_tree_1",
+      "key": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.75,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__maple_tree_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.85,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__red_flower_cluster_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.8,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__red_flower_cluster_1",
+      "key": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.97,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__grass_meadow_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.75,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__wooden_post_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.88,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__dense_shrub_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.85,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__dense_shrub_1",
+      "key": 1
+    },
+    {
+      "relation": "in_scene",
+      "confidence": 0.98,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__scene_outdoor",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_img_mood",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.9,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_img_lighting",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.88,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_img_style",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.93,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_img_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.85,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_img_size",
+      "key": 0
+    },
+    {
+      "relation": "has_text",
+      "confidence": 0.62,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__text_bench_graffiti_1",
+      "key": 0
+    },
+    {
+      "relation": "has_text",
+      "confidence": 0.58,
+      "source": "ben_kupke_uapc8sbvdla_unsplash",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__text_bench_graffiti_2",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.91,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__park_bench_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_bench_material",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.88,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__park_bench_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_bench_color",
+      "key": 0
+    },
+    {
+      "relation": "on_top_of",
+      "confidence": 0.85,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__park_bench_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__grass_meadow_1",
+      "key": 0
+    },
+    {
+      "relation": "in_front_of",
+      "confidence": 0.82,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__park_bench_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__red_horse_chestnut_tree_1",
+      "key": 0
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.72,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__park_bench_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__wooden_post_1",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__red_horse_chestnut_tree_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_tree_color",
+      "key": 0
+    },
+    {
+      "relation": "behind",
+      "confidence": 0.8,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__maple_tree_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__grass_meadow_1",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.87,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__red_flower_cluster_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_flower_color",
+      "key": 0
+    },
+    {
+      "relation": "on_top_of",
+      "confidence": 0.8,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__red_flower_cluster_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__red_horse_chestnut_tree_1",
+      "key": 0
+    },
+    {
+      "relation": "on_top_of",
+      "confidence": 0.78,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__red_flower_cluster_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__red_horse_chestnut_tree_1",
+      "key": 1
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.96,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__grass_meadow_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_grass_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.9,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__grass_meadow_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__attr_grass_size",
+      "key": 0
+    },
+    {
+      "relation": "in_front_of",
+      "confidence": 0.75,
+      "source": "ben_kupke_uapc8sbvdla_unsplash__dense_shrub_1",
+      "target": "ben_kupke_uapc8sbvdla_unsplash__red_horse_chestnut_tree_1",
+      "key": 0
+    }
+  ]
+}

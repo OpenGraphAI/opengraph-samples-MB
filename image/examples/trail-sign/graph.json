@@ -1,0 +1,405 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "image",
+      "path": "source/roger-starnes-sr-Ai2EjJIOunw-unsplash.jpg",
+      "width": 4803,
+      "height": 3181,
+      "format": "JPEG",
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash"
+    },
+    {
+      "type": "object",
+      "label": "wooden_signpost",
+      "confidence": 0.98,
+      "bounding_box": [
+        0.35,
+        0.08,
+        0.3,
+        0.92
+      ],
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__wooden_signpost_1"
+    },
+    {
+      "type": "object",
+      "label": "trail_sign",
+      "confidence": 0.97,
+      "bounding_box": [
+        0.27,
+        0.12,
+        0.52,
+        0.28
+      ],
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top"
+    },
+    {
+      "type": "object",
+      "label": "deciduous_foliage",
+      "confidence": 0.95,
+      "bounding_box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__deciduous_foliage_1"
+    },
+    {
+      "type": "object",
+      "label": "tree_trunk",
+      "confidence": 0.92,
+      "bounding_box": [
+        0.82,
+        0.05,
+        0.1,
+        0.85
+      ],
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__tree_trunk_1"
+    },
+    {
+      "type": "scene",
+      "label": "outdoor",
+      "confidence": 0.98,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__scene_outdoor_forest"
+    },
+    {
+      "type": "attribute",
+      "key": "lighting",
+      "value": "natural daylight, dappled",
+      "confidence": 0.92,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_lighting_natural"
+    },
+    {
+      "type": "attribute",
+      "key": "mood",
+      "value": "serene, adventurous",
+      "confidence": 0.88,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_mood_serene"
+    },
+    {
+      "type": "attribute",
+      "key": "style",
+      "value": "rustic",
+      "confidence": 0.95,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_style_rustic"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "lush green",
+      "confidence": 0.97,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_color_foliage"
+    },
+    {
+      "type": "attribute",
+      "key": "material",
+      "value": "wood",
+      "confidence": 0.98,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_top_material"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "light tan with green painted arrow",
+      "confidence": 0.92,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_top_color"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "medium tan with green painted arrow",
+      "confidence": 0.9,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_middle_color"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "light tan with black painted arrow",
+      "confidence": 0.9,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_bottom_color"
+    },
+    {
+      "type": "attribute",
+      "key": "size",
+      "value": "medium",
+      "confidence": 0.85,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_top_size"
+    },
+    {
+      "type": "attribute",
+      "key": "material",
+      "value": "pine wood",
+      "confidence": 0.95,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_signpost_material"
+    },
+    {
+      "type": "text_span",
+      "text": "TRAIL",
+      "confidence": 0.98,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__text_trail_top"
+    },
+    {
+      "type": "text_span",
+      "text": "TRAIL",
+      "confidence": 0.98,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__text_trail_middle"
+    },
+    {
+      "type": "text_span",
+      "text": "TRAIL",
+      "confidence": 0.98,
+      "seen_in": [
+        "roger_starnes_sr_ai2ejjiounw_unsplash"
+      ],
+      "id": "roger_starnes_sr_ai2ejjiounw_unsplash__text_trail_bottom"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "contains",
+      "confidence": 0.98,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__wooden_signpost_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.97,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.97,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "key": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.97,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "key": 2
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.95,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__deciduous_foliage_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.92,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__tree_trunk_1",
+      "key": 0
+    },
+    {
+      "relation": "in_scene",
+      "confidence": 0.98,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__scene_outdoor_forest",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_lighting_natural",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.88,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_mood_serene",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.95,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_style_rustic",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.97,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_color_foliage",
+      "key": 0
+    },
+    {
+      "relation": "has_text",
+      "confidence": 0.98,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__text_trail_top",
+      "key": 0
+    },
+    {
+      "relation": "has_text",
+      "confidence": 0.98,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__text_trail_middle",
+      "key": 0
+    },
+    {
+      "relation": "has_text",
+      "confidence": 0.98,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__text_trail_bottom",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.95,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__wooden_signpost_1",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_signpost_material",
+      "key": 0
+    },
+    {
+      "relation": "in_front_of",
+      "confidence": 0.9,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__wooden_signpost_1",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__deciduous_foliage_1",
+      "key": 0
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.85,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__wooden_signpost_1",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__tree_trunk_1",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.98,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_top_material",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_top_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.85,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_top_size",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.85,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_top_size",
+      "key": 1
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.85,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_top_size",
+      "key": 2
+    },
+    {
+      "relation": "on_top_of",
+      "confidence": 0.95,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__wooden_signpost_1",
+      "key": 0
+    },
+    {
+      "relation": "on_top_of",
+      "confidence": 0.95,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__wooden_signpost_1",
+      "key": 1
+    },
+    {
+      "relation": "on_top_of",
+      "confidence": 0.93,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__wooden_signpost_1",
+      "key": 2
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.9,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_middle_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.9,
+      "source": "roger_starnes_sr_ai2ejjiounw_unsplash__trail_sign_top",
+      "target": "roger_starnes_sr_ai2ejjiounw_unsplash__attr_sign_bottom_color",
+      "key": 0
+    }
+  ]
+}

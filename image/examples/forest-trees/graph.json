@@ -1,0 +1,504 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "image",
+      "path": "source/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg",
+      "width": 2560,
+      "height": 1705,
+      "format": "JPEG",
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash"
+    },
+    {
+      "type": "object",
+      "label": "forest_path",
+      "confidence": 0.97,
+      "bounding_box": [
+        0.2,
+        0.7,
+        0.6,
+        0.3
+      ],
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1"
+    },
+    {
+      "type": "object",
+      "label": "european_beech_tree",
+      "confidence": 0.82,
+      "bounding_box": [
+        0.0,
+        0.0,
+        0.12,
+        1.0
+      ],
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1"
+    },
+    {
+      "type": "object",
+      "label": "forest_undergrowth",
+      "confidence": 0.93,
+      "bounding_box": [
+        0.0,
+        0.4,
+        1.0,
+        0.45
+      ],
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_undergrowth_1"
+    },
+    {
+      "type": "object",
+      "label": "rock",
+      "confidence": 0.88,
+      "bounding_box": [
+        0.3,
+        0.72,
+        0.12,
+        0.12
+      ],
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1"
+    },
+    {
+      "type": "object",
+      "label": "trail_marker",
+      "confidence": 0.65,
+      "bounding_box": [
+        0.42,
+        0.52,
+        0.02,
+        0.05
+      ],
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__trail_marker_1"
+    },
+    {
+      "type": "scene",
+      "label": "outdoor",
+      "confidence": 0.99,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__scene_outdoor_forest"
+    },
+    {
+      "type": "attribute",
+      "key": "mood",
+      "value": "serene and mysterious",
+      "confidence": 0.95,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_mood"
+    },
+    {
+      "type": "attribute",
+      "key": "lighting",
+      "value": "dappled natural light with warm backlighting",
+      "confidence": 0.95,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_lighting"
+    },
+    {
+      "type": "attribute",
+      "key": "style",
+      "value": "nature photography with cinematic tone",
+      "confidence": 0.9,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_style"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "deep greens, browns, and warm golden highlights",
+      "confidence": 0.95,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_color"
+    },
+    {
+      "type": "attribute",
+      "key": "material",
+      "value": "dirt and gravel",
+      "confidence": 0.92,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_path_material"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "reddish-brown",
+      "confidence": 0.88,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_path_color"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "dark brown bark with green foliage",
+      "confidence": 0.92,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_tree_color"
+    },
+    {
+      "type": "attribute",
+      "key": "material",
+      "value": "wood",
+      "confidence": 0.99,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_tree_material"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "vibrant green",
+      "confidence": 0.93,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_undergrowth_color"
+    },
+    {
+      "type": "attribute",
+      "key": "material",
+      "value": "stone",
+      "confidence": 0.92,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_rock_material"
+    },
+    {
+      "type": "attribute",
+      "key": "color",
+      "value": "grey-brown",
+      "confidence": 0.88,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_rock_color"
+    },
+    {
+      "type": "attribute",
+      "key": "size",
+      "value": "wide landscape",
+      "confidence": 0.95,
+      "seen_in": [
+        "lukasz_szmigiel_jfcviyfycus_unsplash"
+      ],
+      "id": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_size"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "contains",
+      "confidence": 0.97,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.92,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.9,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "key": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.9,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "key": 2
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.9,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "key": 3
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.9,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "key": 4
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.9,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "key": 5
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.92,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "key": 6
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.93,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_undergrowth_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.88,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "key": 0
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.85,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "key": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.83,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "key": 2
+    },
+    {
+      "relation": "contains",
+      "confidence": 0.65,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__trail_marker_1",
+      "key": 0
+    },
+    {
+      "relation": "in_scene",
+      "confidence": 0.99,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__scene_outdoor_forest",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.95,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_mood",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.95,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_lighting",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.9,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_style",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.95,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.95,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_img_size",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_path_material",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.88,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_path_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_tree_color",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_tree_color",
+      "key": 1
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.99,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_tree_material",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.99,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_tree_material",
+      "key": 1
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.9,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "key": 0
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.88,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "key": 1
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.88,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "key": 2
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.9,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "key": 3
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.93,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_undergrowth_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_undergrowth_color",
+      "key": 0
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.88,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_undergrowth_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "key": 0
+    },
+    {
+      "relation": "in_front_of",
+      "confidence": 0.85,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_undergrowth_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_rock_material",
+      "key": 0
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_rock_material",
+      "key": 1
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.92,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_rock_material",
+      "key": 2
+    },
+    {
+      "relation": "has_attribute",
+      "confidence": 0.88,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__attr_rock_color",
+      "key": 0
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.85,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "key": 0
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.83,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "key": 1
+    },
+    {
+      "relation": "next_to",
+      "confidence": 0.82,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__rock_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__forest_path_1",
+      "key": 2
+    },
+    {
+      "relation": "on_top_of",
+      "confidence": 0.65,
+      "source": "lukasz_szmigiel_jfcviyfycus_unsplash__trail_marker_1",
+      "target": "lukasz_szmigiel_jfcviyfycus_unsplash__european_beech_tree_1",
+      "key": 0
+    }
+  ]
+}
